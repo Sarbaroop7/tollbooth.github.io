@@ -1,0 +1,11 @@
+{% extends "page.html" %}
+<div style="margin: 10px;background:#cdcdcd; border: 1px dashed #a0a0a0;margin: 20px;">
+</div>
+{% block content %}
+	    <h2>You have been logged out</h2>
+	    <div class="border-top pt-3">
+		<small class="text-muted">
+		    <a href="{% url 'login' %}">Log In Again</a>
+		</small>
+	    </div>
+{% endblock content %}
